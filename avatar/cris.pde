@@ -1,4 +1,6 @@
-void cris() {
+void cris(float posx, float posy) {
+ push();
+ translate(posx, posy);
 
   //estructurafora
   line(0, 0, m*6+m/2, 0);
@@ -42,4 +44,6 @@ void cris() {
   fill(0);
   ellipse(m*7.5, m*5.7, m/1.8, m/1.8);
 
+  //noLoop();
+  pop();
 }
