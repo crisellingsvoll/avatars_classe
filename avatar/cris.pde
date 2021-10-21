@@ -42,5 +42,4 @@ void cris() {
   fill(0);
   ellipse(m*7.5, m*5.7, m/1.8, m/1.8);
 
-  noLoop();
 }
